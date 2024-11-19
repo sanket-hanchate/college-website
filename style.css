@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-page {
+    background-image: url("https://lh5.googleusercontent.com/p/AF1QipOuiAK7muchrmJRSOlfhD17msFwqHhu1SwzqhqW=w575-h298-k-no");
+    height: 100vh;
+    background-size: cover;
+}
+
+.logo-container {
+    margin-top: 20px;
+}
+
+.college-logo {
+    height: 120px;
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.nav-item:hover .nav-link {
+    color: #ff9800 !important;
+}
+
+/* Heading and Sub-heading Styling */
+.heading-container {
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Updated Heading and Sub-heading Styling */
+.main-heading {
+    font-family: 'Bree Serif', serif;
+    /* Elegant and bold font */
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(to right, #ff8c00, #ff4500);
+    /* Gold to Orange Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    /* Stronger shadow for visibility */
+    margin-top: 40px;
+}
+
+.sub-heading {
+    font-family: 'Caveat', cursive;
+    /* Friendly and approachable font */
+    font-size: 30px;
+    font-weight: 500;
+    color: #8b0000;
+    /* Dark red for contrast */
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    /* Subtle shadow for clarity */
+}
+
+.visit-button {
+    font-family: 'Roboto', sans-serif;
+    /* Clean, modern font */
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    /* White text for contrast */
+    background: linear-gradient(to right, #ff5722, #ff9800);
+    /* Vibrant orange gradient */
+    border: none;
+    padding: 12px 24px;
+    /* Balanced padding for button size */
+    border-radius: 25px;
+    /* Smooth rounded edges */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    /* Subtle shadow for depth */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for the button */
+.visit-button:hover {
+    transform: scale(1.05);
+    /* Slight zoom on hover */
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+    /* Enhanced shadow on hover */
+}
+
+/* Add some spacing around the button container */
+.button-container {
+    margin-top: 20px;
+}
+
+.course-heading {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: "Bree sans-serif";
+}
+
+.course-para {
+    font-size: 12px;
+    text-align: center;
+    font-size: "Bree sans-serif";
+}
+
+.card-1 {
+    height: 210px;
+    background-color: #facb84;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.intermediate-heading {
+    font-size: 23px;
+    text-align: center;
+    padding: 15px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.cart-1 {
+    height: 220px;
+    background-color: #facb84;
+    border-radius: 10px;
+}
+
+.student-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+.para-1 {
+    font-size: 14px;
+    padding: 10px;
+    font-family: "Roboto";
+}
+
+.student-name {
+    font-weight: 600;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.para-2 {
+    font-size: 14px;
+    font-family: "Roboto";
+    margin-left: 3px;
+}
+
+.companies-logo {
+    height: 500px;
+    width: 100%;
+}
+
+.join-us-heading {
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.social-media {
+    border-radius: 50%;
+    background-color: #918d8d;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.icons {
+    font-size: 20px;
+    color: white;
+}
+
+.social-media:hover {
+    background-color: #E50914;
+}
+
+.social-line {
+    margin-top: 20px;
+    width: 60%;
+    border: none;
+    border-top: 0.3px solid #E50914;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para-3 {
+    font-size: 12px;
+    font-family: "Roboto";
+}
+
+.degree-paras {
+    font-size: 14px;
+    font-family: "Roboto";
+    padding: 2px;
+    text-align: center;
+}
+
+.about-us-page {
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg");
+    height: 50vh;
+    background-size: cover;
+}
+
+.about-heading {
+    font-size: 32px;
+    font-family: "Roboto";
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-us-heading-1 {
+    font-size: 33px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.about-us-para-1 {
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.about-us-image {
+    height: 500px;
+    width: 400px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.courses-page {
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg");
+    height: 50vh;
+    background-size: cover;
+}
+
+.courses-heading {
+    font-size: 32px;
+    font-family: "Roboto";
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.contact-page {
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg");
+    height: 50vh;
+    background-size: cover;
+}
+
+.contact-heading {
+    font-size: 32px;
+    font-family: "Roboto";
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Contact Us Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.info-item {
+    text-align: center;
+    color: #333;
+}
+
+.info-item i {
+    font-size: 1.5rem;
+    color: #007BFF;
+    margin-bottom: 5px;
+}
+
+.info-item p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+html {
+    scroll-behavior: smooth;
+}
